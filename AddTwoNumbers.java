@@ -8,6 +8,7 @@ public class AddTwoNumbers {
         double num2 = sc.nextDouble();
         double sum = num1 + num2;
         System.out.println("The sum is: " + sum);
+        
         sc.close();
     }
 
