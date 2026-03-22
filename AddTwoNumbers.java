@@ -3,10 +3,10 @@ public class AddTwoNumbers {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first number:");
-        int num1 = sc.nextInt();
+        double num1 = sc.nextDouble();
         System.out.println("Enter the second number:");
-        int num2 = sc.nextInt();
-        int sum = num1 + num2;
+        double num2 = sc.nextDouble();
+        double sum = num1 + num2;
         System.out.println("The sum is: " + sum);
 
         sc.close();
